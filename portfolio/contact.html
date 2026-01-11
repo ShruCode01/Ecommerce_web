@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Shruti Chauhan - Frontend Developer</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shruti<span style="color: var(--accent-color);"></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center animate-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="lead text-muted">
+                        Have a project in mind or want to discuss a job opportunity? I'd love to hear from you!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 animate-up">
+                    <div class="card shadow-lg border-0 rounded-3 overflow-hidden">
+                        <div class="row g-0">
+                            <!-- Contact Info Column -->
+                            <div class="col-md-5 bg-dark text-white p-5 d-flex flex-column justify-content-center">
+                                <h4 class="mb-4">Contact Info</h4>
+                                <div class="mb-4">
+                                    <i class="fas fa-envelope me-2 text-info"></i>
+                                    <span>chauhanshruti932@gmail.com</span>
+                                </div>
+                                <div class="mb-4">
+                                    <i class="fas fa-phone me-2 text-info"></i>
+                                    <span>+91 8279830303</span>
+                                </div>
+                                <div class="mb-4">
+                                    <i class="fas fa-map-marker-alt me-2 text-info"></i>
+                                    <span> Noida, India</span>
+                                </div>
+                                <div class="mt-4">
+                                    <a href="https://www.linkedin.com/in/shruti-chauhan-57a017297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        class="text-white me-3 fs-5"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://github.com/dashboard" class="text-white me-3 fs-5"><i
+                                            class="fab fa-github"></i></a>
+                                    <a href="#" class="text-white fs-5"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+
+                            <!-- Form Column -->
+                            <div class="col-md-7 bg-white p-5">
+                                <h4 class="mb-4" style="color: var(--primary-color);">Send a Message</h4>
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="John Doe"
+                                            required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea class="form-control" id="message" rows="4"
+                                            placeholder="Hi, I'd like to hire you..." required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary-custom w-100 mt-3">Send
+                                        Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="mb-1">&copy; 2024 Shruti Chauhan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
